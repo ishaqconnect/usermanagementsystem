@@ -1,0 +1,31 @@
+.navbar {
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  padding: 20px 0;
+  margin: 20px auto;
+  width: 80%;
+}
+
+.centered {
+  text-align: center; }
+
+.activeStyle,
+.inActiveStyle {
+  color: oldlace;
+  font-size: 33px;
+  font-family: inherit;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.activeStyle:hover,
+.inActiveStyle:hover {
+  color: #3861fb;
+}
+
+.separator {
+  height: 1px;
+  margin-top: 5px;
+  background: linear-gradient(to right, transparent, #9ba3c2, transparent);
+}
